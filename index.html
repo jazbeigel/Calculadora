@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+            <input type="text" id="display" disabled>
+            <input type="text" id="displayMasCero" disabled>
+            <input type="text" id="displayMenosCero" disabled>
+            <button id="numero1">1</button>
+            <button id="numero2">2</button>
+            <button id="numero3">3</button>
+            <button id="numero4">4</button>
+            <button id="numero5">5</button>
+            <button id="numero6">6</button>
+            <button id="numero7">7</button>
+            <button id="numero8">8</button>
+            <button id="numero9">9</button>
+            <button id="numero0">0</button>
+
+        <section class="Operaciones">
+            <input type="button" id="mas" value="+" onclick="sumo()">
+            <input type="button" id="menos" value="-" onclick="resto()">
+            <input type="button" id="divido" value="/" onclick="divido()">
+            <input type="button" id="por" value="×" onclick="multiplico()">
+            <input type="button" id="igual" value="=" onclick="calculoResultado()">
+            <input type="button" id="clear" value="AC" onclick="borrar()"> 
+        </section>
+    </div>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>

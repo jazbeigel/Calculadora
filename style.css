@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    
+}
+
+div {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+#borrar {
+    font-size: x-small
+}
+
+#display {
+    width: 99%;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 3em;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+
+}
+
+#displayMasCero {
+    width: 99%;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #059200;
+    font-size: 3em;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+
+}
+
+#displayMenosCero {
+    width: 99%;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #990000;
+    font-size: 3em;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+
+}
+
+div button, input[type="button"] {
+    width: 70px;
+    height: 70px;
+    background-color: #505050;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+.Operaciones input[type="button"] {
+    background-color: #ff9500;
+    color: white;
+    font-size: 2.1em;
+} /* COLOR DEL + - % X */
+
+.Operaciones input[type="button"]:hover {
+    background-color: #ffaf40;
+}
+
+#clear { /* COLOR DE AC */
+    background-color: #a5a5a5;
+    color:#000000
+}
+
+#clear:hover {
+    background-color: #d4d4d4;
+}
+
+
+div section input [type="button"]{
+    width: 50px;
+    height: 50px;
+    background-color: #ffae19;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    margin: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover, input[type="button"]:hover {
+    background-color: #5c5b5a;
+}
+
